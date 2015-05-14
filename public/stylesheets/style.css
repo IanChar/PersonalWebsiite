@@ -1,3 +1,4 @@
+/*https://color.adobe.com/Theme-3-color-theme-6075720/edit/?copy=true&base=2&rule=Custom&selected=2&name=Copy%20of%20Theme%203&mode=rgb&rgbvalues=0.0784313753247261,0.2000000029802322,0.4509803950786591,0.05882352963089943,0.1568627506494522,0.3490196168422699,0.20057142090979924,0.2265714180870926,0.26,0.6666666865348816,0.7098039388656616,0.7490196228027344,0.9215686321258545,0.9411764740943909,0.9490196108818054&swatchOrder=0,1,2,3,4*/
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -18,19 +19,48 @@ a {
 }
 
 #titleContainer {
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(255, 255, 255, 0.0);
 	height: 100vh;
 }
 
-#introNav {
-	background-color: rgba(0, 0, 0, 0.3);
-	position: relative;
-}
-
-.sectionContainer {
-	background-color: rgba(0,0,100,0.9);
+.bodyContainer {
+	background-color: rgba(51,58,66,1);
 	position: absolute;
 	float: left;
+	width: 100%;
+	height: 100vh;
 	color: white;
 }
 
+#introNav {
+	color: white;
+	font-size: 2em;
+	margin-top: 1.25em;
+	background-color: rgba(0, 0, 0, 0.4);
+	padding: 0.25em;
+}
+
+#introNav ul {
+	list-style-type: none;
+	left: 50%;
+	text-align: center;
+}
+
+#introNav li {
+	display: inline;
+	margin-right: 5em;
+}
+
+#bigName {
+	color: white;
+	font-size: 5em;
+	position: relative;
+	vertical-align: middle;
+	top: 30%;
+	text-align: center;
+}
+
+.sectionHeader{
+	background-color: rgba(15, 40, 89, 0.5);
+	text-align: center;
+}
