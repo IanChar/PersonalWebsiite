@@ -4,8 +4,33 @@ body {
   background-image: url("/images/redRocks.jpg");
   background-repeat: no-repeat;
   background-size: 100% 45em;
+  background-attachment: fixed;
 }
 
 a {
   color: #00B7FF;
 }
+
+.container {
+	position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    width: 100%;
+}
+
+#titleContainer {
+	background-color: rgba(255, 255, 255, 0.5);
+	height: 100vh;
+}
+
+#introNav {
+	background-color: rgba(0, 0, 0, 0.3);
+	position: relative;
+}
+
+.sectionContainer {
+	background-color: rgba(0,0,100,0.9);
+	position: absolute;
+	float: left;
+	color: white;
+}
+
