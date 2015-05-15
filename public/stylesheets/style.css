@@ -114,13 +114,55 @@ b {
 	color: #EBF0F2;
 }
 
-.ImgContainer{
-	display: inline;
-	margin-left: 3em;
-	margin-right: 3em;
-	margin-top: 0.75em;
+
+.imgOverlay {
+	display: absolute;
+	background-color: rgba(51,58,66,0.9);
+	width: 100%;
+	height: 100%;
+	padding-top: 5em;
+	text-align: center;
 }
 
-.projectImg {
-	width: 25%;
+#imgExpenshare {
+	background-image: url("/images/expenshareSquare.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 15em;
+	margin-bottom: 3em;
+}
+#imgSoundscape {
+	background-image: url("/images/soundscapeSquare.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 15em;
+	margin-bottom: 3em;
+}
+#imgMCM {
+	background-image: url("/images/MCMpic.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 15em;
+	margin-bottom: 3em;
+}
+#imgTwitter {
+	background-image: url("/images/twitterFeels.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 15em;
+	margin-bottom: 3em;
+}
+#imgUIST {
+	background-image: url("/images/kinomaSquare.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 15em;
+	margin-bottom: 3em;
+}
+#imgSpectral {
+	background-image: url("/images/lakeSquare.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 15em;
+	margin-bottom: 3em;
 }
