@@ -45,7 +45,7 @@ b {
 	color: white;
 	font-size: 2em;
 	margin-top: 1.25em;
-	background-color: rgba(0, 0, 0, 0.4);
+	background-color: rgba(51,58,66,0.4);
 	padding: 0.25em;
 }
 
@@ -89,6 +89,18 @@ b {
 	background-color: rgba(51,58,66,1);
 }
 
+#section2 {
+	background-color: rgba(51,58,66,1);
+}
+
+#section3 {
+	background-color: rgba(51,58,66,1);
+}
+
+#section4 {
+	background-color: rgba(51,58,66,0.7);
+}
+
 #mePicContainer {
 	padding-top: 2.5em;
 }
@@ -100,4 +112,15 @@ b {
 
 .subtitle{
 	color: #EBF0F2;
+}
+
+.ImgContainer{
+	display: inline;
+	margin-left: 3em;
+	margin-right: 3em;
+	margin-top: 0.75em;
+}
+
+.projectImg {
+	width: 25%;
 }
