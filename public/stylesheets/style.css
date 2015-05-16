@@ -1,4 +1,9 @@
 /*https://color.adobe.com/Theme-3-color-theme-6075720/edit/?copy=true&base=2&rule=Custom&selected=2&name=Copy%20of%20Theme%203&mode=rgb&rgbvalues=0.0784313753247261,0.2000000029802322,0.4509803950786591,0.05882352963089943,0.1568627506494522,0.3490196168422699,0.20057142090979924,0.2265714180870926,0.26,0.6666666865348816,0.7098039388656616,0.7490196228027344,0.9215686321258545,0.9411764740943909,0.9490196108818054&swatchOrder=0,1,2,3,4*/
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -9,7 +14,7 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  color: #2B73FF;
 }
 
 a:hover {
@@ -128,7 +133,7 @@ b {
 	padding-top: 3em;
 	text-align: center;
 	font-size: 2em;
-	color: #00B7FF;
+	color: #2B73FF;
 }
 
 .imgOverlay:hover {
@@ -189,4 +194,10 @@ b {
 
 .modal-body p {
 	color: black;
+}
+
+#tabContainer {
+	margin-left: 5em;
+	padding-right: 11em;
+
 }
