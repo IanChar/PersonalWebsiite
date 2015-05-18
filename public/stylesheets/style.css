@@ -201,3 +201,34 @@ b {
 	padding-right: 11em;
 
 }
+
+.skillsul {
+	list-style-type: none;
+	left: 50%;
+	text-align: center;
+}
+
+.skillsli1 {
+	display: inline;
+	font-size: 3em;
+	margin: 0.5em;
+	color: #2B73FF;
+}
+.skillsli2 {
+	display: inline;
+	font-size: 2em;
+	margin: 0.5em;
+	color: #2768E8;
+}
+.skillsli3 {
+	display: inline;
+	font-size: 1.5em;
+	margin: 0.5em;
+	color: #235ED1;
+}
+.skillsli4 {
+	display: inline;
+	font-size: 1em;
+	margin: 0.5em;
+	color: #2056BF;
+}
