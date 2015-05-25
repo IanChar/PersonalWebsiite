@@ -19,6 +19,8 @@ a {
 
 a:hover {
 	cursor: pointer;
+	text-decoration: none;
+	color: #1F4EB0;
 }
 
 p {
@@ -67,6 +69,10 @@ b {
 #introNav li {
 	display: inline;
 	margin-right: 5em;
+}
+
+#introNav a {
+	color: white;
 }
 
 #bigName {

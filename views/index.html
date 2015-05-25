@@ -9,12 +9,12 @@
 	<body>
 		<div class="container">
 			<div class="row" id="titleContainer">
-				<div clabss="col-md-12" id="introNav">
-					<ul>
-						<li>About</li>
-						<li>Projects</li>
-						<li>Resume</li>
-						<li>Contact</li>
+				<div class="col-md-12" id="introNav">
+					<ul class="navbar" style="margin-left:-100%; margin-bottom: -1%;">
+						<li><a href="#section1">About</a></li>
+						<li><a href="#section2">Projects</a></li>
+						<li><a href="#section3">Resume</a></li>
+						<li><a href="#section4">Contact</a></li>
 					</ul>
 				</div>
 				<h1 id="bigName">Ian Char</h1>
@@ -25,7 +25,7 @@
 					<li style="display: inline;"><a class="sec1Buttons" href="mailto:ianchar4@gmail.com" target="_blank"><image class="sec1Buttons" src="/images/email.png"></a></li>
 				</ul>
 			</div>
-			<div class="row bodyContainer">
+			<div class="row bodyContainer" data-spy="scroll" data-target=".navbar">
 				<div class="container" style="padding: 0;">
 					<!-- FIRST SECTION -->
 					<div class="section" id="section1">
@@ -195,14 +195,6 @@
 						</div>
 						<a href="https://github.com/IanChar" target="_blank"><image src="/images/transparentGit.png" style="display: inline; height: 6em; margin-left: 47.5%; margin-top: -2em;"></a>
 					</div>
-					<!--Script for pic overlays-->
-					<script>
-						$('.imgOverlay').hover(function() {
-						    $(this).fadeTo('fast', 0.9, function(){});
-						}, function() {
-						    $(this).fadeTo('fast', 0, function(){});
-						});
-					</script>
 					<!-- THIRD SECTION -->
 					<div class="section" id="section3">
 						<div class="row sectionHeader">
@@ -332,12 +324,6 @@
 								  </div>
 								</div>
 							</div>
-
-							<script>
-							  $(function () {
-							    $('#myTab a:first').tab('show')
-							  })
-							</script>
 						</div>
 					</div>
 					<!-- FOURTH SECTION -->
@@ -367,4 +353,5 @@
 			</div>
 		</div>
 	</body>
+	<script src="/javascripts/scripts.js"></script>
 </html>
