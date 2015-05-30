@@ -9,7 +9,7 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-image: url("/images/redRocks.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 45em;
+  background-size: 100% 100vh;
   background-attachment: fixed;
 }
 
@@ -87,23 +87,24 @@ b {
 }
 
 #bigName {
-	color: white;
-	font-size: 5em;
+	color: black;
+	font-size: 10em;
 	position: relative;
 	vertical-align: middle;
 	top: 25%;
 	text-align: center;
+	font-family: 'Fredericka the Great', cursive;
 }
 
 #buttonList {
 	list-style-type: none;
-	margin-top: 10%;
-	margin-left: 35%;
+	margin-top: 10em;
+	margin-left: 25%;
 }
 
 .sec1Buttons {
 	height: 6em;
-	margin-right: 0.5em;
+	margin-right: 5em;
 	display: inline;
 }
 
@@ -143,6 +144,10 @@ b {
 #section4 {
 	background-color: rgba(51,58,66,0.7);
 	height: 100vh;
+}
+
+#section4Header {
+	margin-bottom: 5vh;
 }
 
 #mePicContainer {
@@ -224,7 +229,10 @@ b {
 }
 
 .modal-body {
-	height: 70vh;
+	display: inline-block;
+	position: absolute;
+	float: right;
+	background-color: white;
 }
 
 .modal-body p {
