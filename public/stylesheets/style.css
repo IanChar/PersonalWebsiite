@@ -47,6 +47,13 @@ b {
 	height: 100vh;
 }
 
+#dynamicNav {
+	position: fixed;
+	z-index: 1;
+	width: 110%;
+	margin-left: -2em;
+}
+
 .bodyContainer {
 	position: absolute;
 	float: left;
